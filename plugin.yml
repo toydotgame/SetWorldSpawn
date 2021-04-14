@@ -1,0 +1,15 @@
+name: SetWorldSpawn
+main: io.github.toydotgame.SetWorldSpawn.Main
+version: 0.1
+description: Allows for quick and easy setting of the server's spawn point.
+author: toydotgame
+prefix: SWS
+commands:
+   setworldspawn:
+      description: Sets the spawn point to your current location.
+      aliases: setspawn
+      usage: "Usage: /<command>"
+permissions:
+  sws.use:
+      description: Allows a player to change the world's spawn point.
+      default: op
